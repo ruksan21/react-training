@@ -8,4 +8,5 @@ console.log(`rainy season ${animal}`);
 animal.splice(0,0,"dog");
 console.log(`spring season ${animal}`);
 console.log(`last animal ${animal.at(-1)}`);
+console
 
