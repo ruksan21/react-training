@@ -5,4 +5,5 @@ function main (){
         mainDiv.style.backgroundColor = "red";
     });
 }
-
+main();
+console.log("script is loaded");
