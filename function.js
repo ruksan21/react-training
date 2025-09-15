@@ -19,6 +19,14 @@ function login1(name, age, faculty) {
 console.log(login1("Ruksan", 21, "Bca"));
 console.log( login1("John", 22, "Bca"));
 console.log(login1("Alice", 23, "Bca"));
+// 
+function login2(name, age, faculty) {
+    return {
+        name,
+        age,
+        faculty
+    };
+}
 
 
 
