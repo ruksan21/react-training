@@ -19,7 +19,7 @@ const signup =(name,email,password,userImage,address,phoneNumber)=>{
         console.log("user image should start with https://");
     }
         else if (!address.includes("street")){
-
+            
     newuser.name = name;
     newuser.email = email;
     newuser.password = password;
@@ -27,7 +27,7 @@ const signup =(name,email,password,userImage,address,phoneNumber)=>{
     newuser.address = address;
     newuser.phoneNumber = phoneNumber;  
     console.log("Signup successful",newuser);
-    
+
 
         }
 }
