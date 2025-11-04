@@ -27,6 +27,7 @@ const signup =(name,email,password,userImage,address,phoneNumber)=>{
     newuser.address = address;
     newuser.phoneNumber = phoneNumber;  
     console.log("Signup successful",newuser);
+    
 
         }
 }
